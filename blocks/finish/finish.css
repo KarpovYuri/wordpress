@@ -1,0 +1,7 @@
+.finish {
+  min-height: 447px;
+  background-image: url('../../img/bg/second_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}

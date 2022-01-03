@@ -1,0 +1,10 @@
+.footer__container {
+  width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 54px 0 69px 0;
+  color: #888888;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+}

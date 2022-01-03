@@ -1,0 +1,6 @@
+.optimization__img {
+  position: absolute;
+  bottom: 0px;
+  left: -240px;
+  z-index: -1;
+}

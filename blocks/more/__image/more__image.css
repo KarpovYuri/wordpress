@@ -1,0 +1,6 @@
+.more__image {
+  margin: 0 auto;
+  width: 30px;
+  height: 19px;
+  background-image: url('../../../img/icons/arrow_down.png');
+}

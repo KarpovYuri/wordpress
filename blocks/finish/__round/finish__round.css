@@ -1,0 +1,10 @@
+.finish__round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 21px;
+  width: 115px;
+  height: 115px;
+  background-color: #b4e2ff;
+  border-radius: 50%;
+}

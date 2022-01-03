@@ -1,0 +1,29 @@
+.promo__simple-title {
+  margin: 0 0 4px;
+  position: relative;
+  color: #fff;
+  font-size: 80px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.promo__simple-title::before {
+  display: block;
+  width: 292px;
+  content: '';
+  position: absolute;
+  border-bottom: 2px solid #fff;
+  top: 50%;
+  left: 0;
+}
+
+.promo__simple-title::after {
+  display: block;
+  width: 292px;
+  content: '';
+  position: absolute;
+  border-bottom: 2px solid #fff;
+  top: 50%;
+  right: 0;
+}
