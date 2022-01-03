@@ -1,0 +1,20 @@
+.button {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  width: 313px;
+  height: 72px;
+  background-image: linear-gradient(to top, #2798b9, #3ab6da 100%);
+  border-radius: 5px;
+  border: none;
+  box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.18);
+  outline: 4px solid rgba(0, 0, 0, 0.23);
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  cursor: pointer;
+}

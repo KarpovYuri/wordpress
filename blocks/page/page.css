@@ -1,0 +1,6 @@
+.page {
+  min-width: 1280px;
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
