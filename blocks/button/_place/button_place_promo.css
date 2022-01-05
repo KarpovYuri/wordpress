@@ -1,3 +1,33 @@
 .button_place_promo {
-  margin-bottom: 71px;
+  margin-bottom: 63px;
+}
+
+@media (max-width: 1279px) {
+  .button_place_promo {
+    margin-bottom: 56px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .button_place_promo {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .button_place_promo {
+    margin-bottom: 44px;
+  }
+}
+
+@media (max-width: 524px) {
+  .button_place_promo {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 374px) {
+  .button_place_promo {
+    margin-bottom: 36px;
+  }
 }

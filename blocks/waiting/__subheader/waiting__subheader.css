@@ -5,3 +5,22 @@
   font-weight: 400;
   text-align: center;
 }
+
+@media (max-width: 1279px) {
+  .waiting__subheader {
+    font-size: 21px;
+    margin-bottom: 42px;
+  }
+}
+
+@media (max-width: 524px) {
+  .waiting__subheader {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 374px) {
+  .waiting__subheader {
+    font-size: 18px;
+  }
+}

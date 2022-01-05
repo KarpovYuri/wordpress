@@ -1,3 +1,9 @@
 .divider_place_waiting {
   margin-bottom: 13px;
 }
+
+@media (max-width: 1279px) {
+  .divider_place_waiting {
+    margin-bottom: 12px;
+  }
+}

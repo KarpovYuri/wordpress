@@ -2,3 +2,33 @@
   margin: 0 auto;
   margin-bottom: 48px;
 }
+
+@media (max-width: 1279px) {
+  .logo_place_promo {
+    margin-bottom: 43px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .logo_place_promo {
+    margin-bottom: 38px;
+  }
+}
+
+@media (max-width: 767px) {
+  .logo_place_promo {
+    margin-bottom: 34px;
+  }
+}
+
+@media (max-width: 524px) {
+  .logo_place_promo {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 374px) {
+  .logo_place_promo {
+    margin-bottom: 22px;
+  }
+}

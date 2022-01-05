@@ -4,3 +4,38 @@
   background-color: #f9bf3b;
   margin: 0 auto;
 }
+
+@media (max-width: 1279px) {
+  .divider {
+    width: 193px;
+    height: 4px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .divider {
+    width: 172px;
+    height: 3px;
+  }
+}
+
+@media (max-width: 767px) {
+  .divider {
+    width: 153px;
+    height: 3px;
+  }
+}
+
+@media (max-width: 524px) {
+  .divider {
+    width: 136px;
+    height: 2px;
+  }
+}
+
+@media (max-width: 374px) {
+  .divider {
+    width: 121px;
+    height: 2px;
+  }
+}

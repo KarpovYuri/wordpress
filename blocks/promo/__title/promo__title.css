@@ -5,3 +5,33 @@
   text-transform: uppercase;
   text-align: center;
 }
+
+@media (max-width: 1279px) {
+  .promo__title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .promo__title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .promo__title {
+    font-size: 29px;
+  }
+}
+
+@media (max-width: 524px) {
+  .promo__title {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 374px) {
+  .promo__title {
+    font-size: 18px;
+  }
+}

@@ -4,3 +4,38 @@
   padding: 86px 0 87px 0;
   text-align: center;
 }
+
+@media (max-width: 1279px) {
+  .gift__container {
+    width: 920px;
+    padding: 77px 0 77px 0;
+  }
+}
+
+@media (max-width: 1023px) {
+  .gift__container {
+    width: 690px;
+    padding: 68px 0 69px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .gift__container {
+    width: 480px;
+    padding: 61px 0 61px 0;
+  }
+}
+
+@media (max-width: 524px) {
+  .gift__container {
+    width: 343px;
+    padding: 54px 0 55px 0;
+  }
+}
+
+@media (max-width: 374px) {
+  .gift__container {
+    width: 288px;
+    padding: 48px 0 49px 0;
+  }
+}

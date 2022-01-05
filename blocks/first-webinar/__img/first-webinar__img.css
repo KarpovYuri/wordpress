@@ -1,3 +1,15 @@
 .first-webinar__img {
   margin-bottom: 32px;
 }
+
+@media (max-width: 524px) {
+  .first-webinar__img {
+    width: 320px;
+  }
+}
+
+@media (max-width: 374px) {
+  .first-webinar__img {
+    width: 288px;
+  }
+}

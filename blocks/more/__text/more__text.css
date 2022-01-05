@@ -6,3 +6,9 @@
   text-align: center;
   margin-bottom: 9px;
 }
+
+@media (max-width: 524px) {
+  .more__text {
+    font-size: 14px;
+  }
+}
