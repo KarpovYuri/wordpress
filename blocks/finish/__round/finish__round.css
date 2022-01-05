@@ -8,3 +8,11 @@
   background-color: #b4e2ff;
   border-radius: 50%;
 }
+
+@media (max-width: 1279px) {
+  .finish__round {
+    width: 102px;
+    height: 102px;
+    margin-bottom: 19px;
+  }
+}

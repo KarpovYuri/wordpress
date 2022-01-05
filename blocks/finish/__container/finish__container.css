@@ -3,3 +3,38 @@
   margin: 0 auto;
   padding: 81px 0 75px 0;
 }
+
+@media (max-width: 1279px) {
+  .finish__container {
+    width: 920px;
+    padding: 72px 0 67px 0;
+  }
+}
+
+@media (max-width: 1023px) {
+  .finish__container {
+    width: 690px;
+    padding: 64px 0 59px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .finish__container {
+    width: 480px;
+    padding: 57px 0 53px 0;
+  }
+}
+
+@media (max-width: 524px) {
+  .finish__container {
+    width: 343px;
+    padding: 51px 0 47px 0;
+  }
+}
+
+@media (max-width: 374px) {
+  .finish__container {
+    width: 288px;
+    padding: 45px 0 42px 0;
+  }
+}

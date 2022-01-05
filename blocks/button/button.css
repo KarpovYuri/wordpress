@@ -18,3 +18,29 @@
   text-transform: uppercase;
   cursor: pointer;
 }
+
+@media (max-width: 1279px) {
+  .button {
+    width: 279px;
+    height: 64px;
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 524px) {
+  .button {
+    width: 248px;
+    height: 57px;
+    font-size: 17px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.18);
+    outline: 3px solid rgba(0, 0, 0, 0.23);
+  }
+}
+
+@media (max-width: 374px) {
+  .button {
+    width: 221px;
+    height: 51px;
+    font-size: 15px;
+  }
+}

@@ -1,4 +1,30 @@
 .waiting__wrapper {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(268px, 1fr));
+  gap: 60px;
+}
+
+@media (max-width: 1279px) {
+  .waiting__wrapper {
+    gap: 36px;
+  }
+}
+
+@media (max-width: 767px) {
+  .waiting__wrapper {
+    margin: 0 auto;
+    width: 340px;
+  }
+}
+
+@media (max-width: 524px) {
+  .waiting__wrapper {
+    width: 320px;
+  }
+}
+
+@media (max-width: 374px) {
+  .waiting__wrapper {
+    width: 288px;
+  }
 }

@@ -5,3 +5,15 @@
   font-weight: 400;
   text-transform: uppercase;
 }
+
+@media (max-width: 767px) {
+  .first-webinar__header {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 374px) {
+  .first-webinar__header {
+    font-size: 25px;
+  }
+}

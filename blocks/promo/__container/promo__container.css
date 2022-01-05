@@ -3,3 +3,38 @@
   margin: 0 auto;
   padding: 39px 0 62px;
 }
+
+@media (max-width: 1279px) {
+  .promo__container {
+    width: 920px;
+    padding: 35px 0 55px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .promo__container {
+    width: 690px;
+    padding: 31px 0 49px;
+  }
+}
+
+@media (max-width: 767px) {
+  .promo__container {
+    width: 480px;
+    padding: 28px 0 44px;
+  }
+}
+
+@media (max-width: 524px) {
+  .promo__container {
+    width: 343px;
+    padding: 25px 0 39px;
+  }
+}
+
+@media (max-width: 374px) {
+  .promo__container {
+    width: 288px;
+    padding: 22px 0 35px;
+  }
+}

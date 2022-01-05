@@ -7,3 +7,30 @@
   text-align: justify;
   letter-spacing: -0.08em;
 }
+
+@media (max-width: 1279px) {
+  .optimization__paragraph {
+    margin-left: 340px;
+    font-size: 17px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .optimization__paragraph {
+    margin-left: 260px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 767px) {
+  .optimization__paragraph {
+    margin-left: 130px;
+  }
+}
+
+@media (max-width: 524px) {
+  .optimization__paragraph {
+    margin-left: 0px;
+  }
+}

@@ -1,4 +1,12 @@
 .finish__wrapper {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(156px, 1fr));
+  gap: 25px;
+}
+
+@media (max-width: 524px) {
+  .finish__wrapper {
+    width: 250px;
+    margin: 0 auto;
+  }
 }

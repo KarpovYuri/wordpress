@@ -5,3 +5,40 @@
   font-weight: 900;
   text-transform: uppercase;
 }
+
+@media (max-width: 1279px) {
+  .optimization__header {
+    margin-left: 340px;
+    text-align: justify;
+    font-size: 26px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .optimization__header {
+    margin-left: 260px;
+    font-size: 23px;
+    line-height: 31px;
+  }
+}
+
+@media (max-width: 767px) {
+  .optimization__header {
+    margin-left: 130px;
+  }
+}
+
+@media (max-width: 524px) {
+  .optimization__header {
+    margin-left: 0;
+    text-align: center;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 374px) {
+  .optimization__header {
+    font-size: 21px;
+  }
+}

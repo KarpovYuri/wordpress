@@ -6,3 +6,10 @@
   font-weight: 300;
   line-height: 20px;
 }
+
+@media (max-width: 1279px) {
+  .finish__description {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}

@@ -47,7 +47,6 @@
 @import url(../blocks/finish/__container/finish__container.css);
 @import url(../blocks/finish/__header/finish__header.css);
 @import url(../blocks/finish/__wrapper/finish__wrapper.css);
-@import url(../blocks/finish/__item/finish__item.css);
 @import url(../blocks/finish/__round/finish__round.css);
 @import url(../blocks/finish/__description/finish__description.css);
 
@@ -66,4 +65,5 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__separator/footer__separator.css);
 @import url(../blocks/footer/__phone/footer__phone.css);
