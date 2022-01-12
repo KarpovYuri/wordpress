@@ -3,4 +3,9 @@
   width: 30px;
   height: 19px;
   background-image: url('../../../img/icons/arrow_down.png');
+  cursor: pointer;
+}
+
+.more__image:hover {
+  opacity: .8;
 }
