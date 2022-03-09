@@ -20,7 +20,8 @@
 }
 
 .button:hover {
-  opacity: .8;
+  background-image: none;
+  background-color: #2798b9;
 }
 
 @media (max-width: 1279px) {
