@@ -2,3 +2,9 @@
   min-height: 634px;
   background: url('../../img/bg/main_bg.jpg') center center/cover no-repeat;
 }
+
+@media (max-width: 374px) {
+  .promo {
+    min-height: 470px;
+  }
+}

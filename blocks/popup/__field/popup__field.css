@@ -4,10 +4,11 @@
   min-height: 27px;
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, .2);
-  font-size: 14px;
-  line-height: 14px;
+  font-size: 16px;
+  line-height: 16px;
   font-weight: normal;
   color: #000;
   box-sizing: border-box;
   position: relative;
+  outline: none;
 }

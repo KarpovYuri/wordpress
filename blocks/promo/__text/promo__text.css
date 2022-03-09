@@ -41,8 +41,6 @@
 
 @media (max-width: 374px) {
   .promo__text {
-    font-size: 15px;
-    line-height: 20px;
-    margin-bottom: 39px;
+    display: none;
   }
 }
