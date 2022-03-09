@@ -2,10 +2,6 @@
   color: #888888;
 }
 
-.footer__link:hover {
-  opacity: .8;
-}
-
 @media (max-width: 524px) {
   .footer__link {
     display: inline-block;
