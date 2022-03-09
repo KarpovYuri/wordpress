@@ -30,15 +30,14 @@
         <div class="more">
           <div class="more__text">узнать больше об интенсиве</div>
           <a href="#more">
-            <div class="more__image"></div>
+            <div class="more__image fade-opacity"></div>
           </a>
         </div>
       </div>
     </header>
 
     <section class="waiting">
-      <a name="more"></a>
-      <div class="waiting__container">
+      <div class="waiting__container" id="more">
         <h2 class="waiting__header">Что вас ждет в нашем интенсиве?</h2>
         <div class="divider divider_place_waiting"></div>
         <p class="waiting__subheader">2 бесплатных полноценных обучающих вебинара, где:</p>
@@ -150,14 +149,14 @@
     </footer>
 
     <article class="popup">
-      <div class="popup__container popup__container_show_form">
+      <div class="popup__container">
         <h2 class="popup__title">Запись на интенсив</h2>
-        <form class="popup__form" name="popupForm" novalidate>
+        <form class="popup__form" name="popupForm">
           <input type="text" placeholder="Имя" class="popup__field" id="nameInput" name="name" required minlength="2"
             maxlength="40">
           <span class="popup__input-error nameInput-error"></span>
-          <input type="text" placeholder="+7 (999) 999-99-99" class="popup__field" id="phoneInput" name="phone" required
-            minlength="2" maxlength="18">
+          <input type="tel" placeholder="+7-999-999-99-99" pattern="\+\d-\d{3}-\d{3}-\d{2}-\d{2}" class="popup__field"
+            id="phoneInput" name="phone" required minlength="2" maxlength="18">
           <span class="popup__input-error jobInput-error"></span>
           <button type="submit" aria-label="Кнопка записаться" class="popup__button">Записаться</button>
         </form>

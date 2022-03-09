@@ -1,6 +1,8 @@
 const button = document.querySelectorAll('.button');
 const popup = document.querySelector('.popup');
 const closeButton = popup.querySelector('.popup__close-button');
+const form = popup.querySelector('.popup__form');
+const inputs = popup.querySelectorAll('.popup__field');
 
 
 // Закрытие popup'ов по нажатию Esc
@@ -42,4 +44,12 @@ popup.addEventListener('mousedown', (evt) => {
   if (evt.target.classList.contains('popup_opened')) {
     closePopup();
   }
+});
+
+
+// Обработчик событий формы
+form.addEventListener('submit', function (evt) {
+  evt.preventDefault();
+  closePopup();
+  inputs.forEach((item) => item.value = '');
 });
