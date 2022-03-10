@@ -1,11 +1,12 @@
 import { FormValidator } from "../js/FormValidator.js";
 
 const button = document.querySelectorAll('.button');
-const popup = document.querySelector('.popup');
-const closeButton = popup.querySelector('.popup__close-button');
-const form = popup.querySelector('.popup__form');
-const nameInput = popup.querySelector('#nameInput');
-const phoneInput = popup.querySelector('#phoneInput');
+const formPopup = document.querySelector('#formPopup');
+const closeButton = formPopup.querySelector('.popup__close-button');
+const form = formPopup.querySelector('.popup__form');
+const nameInput = formPopup.querySelector('#nameInput');
+const phoneInput = formPopup.querySelector('#phoneInput');
+const messagePopup = document.querySelector('#messagePopup');
 
 
 // Объект классов необходимый для запуса валидации
@@ -20,30 +21,34 @@ const formClasses = {
 
 
 // Создание экземпляра классa валидации
-const Validator = new FormValidator(formClasses, popup);
+const Validator = new FormValidator(formClasses, formPopup);
 
 
 // Закрытие popup'ов по нажатию Esc
 function closeByEsc(evt) {
   if (evt.key === 'Escape') {
-    closePopup();
+    closePopup(formPopup);
   }
 }
 
 
 // Закрытия popup'a
-function closePopup() {
+function closePopup(popup) {
   popup.classList.remove('popup_opened');
   // Удаляем обработчик 'Esc' при закрытии
-  document.removeEventListener('keydown', closeByEsc);
+  if (popup.id === 'formPopup') {
+    document.removeEventListener('keydown', closeByEsc);
+  }
 }
 
 
 // Открытие popup'a
-function openPopup() {
+function openPopup(popup) {
   popup.classList.add('popup_opened');
   // Установка обработчика событий на 'Esc' при открытии popup'a
-  document.addEventListener('keydown', closeByEsc);
+  if (popup.id === 'formPopup') {
+    document.addEventListener('keydown', closeByEsc);
+  }
 }
 
 
@@ -54,19 +59,22 @@ button.forEach((item) => {
       Validator.resetFormError();
       Validator.toggleButtonState();
     }
-    openPopup();
+    openPopup(formPopup);
   });
 });
 
 
 // Закрытие popup'a по крестику
-closeButton.addEventListener('click', closePopup);
+closeButton.addEventListener('click', () => {
+  closePopup(formPopup);
+}
+);
 
 
 // Закрытие popup'a по overlay
-popup.addEventListener('mousedown', (evt) => {
+formPopup.addEventListener('mousedown', (evt) => {
   if (evt.target.classList.contains('popup_opened')) {
-    closePopup();
+    closePopup(formPopup);
   }
 });
 
@@ -74,8 +82,12 @@ popup.addEventListener('mousedown', (evt) => {
 // Обработчик событий формы
 form.addEventListener('submit', function (evt) {
   evt.preventDefault();
-  closePopup();
+  closePopup(formPopup);
   evt.target.reset();
+  setTimeout(() => {
+    openPopup(messagePopup);
+    setTimeout(() => closePopup(messagePopup), 1400);
+  }, 150);
 });
 
 
