@@ -1,7 +1,7 @@
 .popup__button {
   display: block;
   position: relative;
-  margin: 0 auto;
+  margin: 16px auto 0;
   padding: 0;
   width: 254px;
   height: 59px;
