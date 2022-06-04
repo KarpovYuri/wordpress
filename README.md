@@ -16,4 +16,5 @@
 + Псевдоклассы
 + Адаптация
 
-* [ссылка на GitHub Pages](https://yurick78.github.io/wordpress/index.html)
+* [ссылка на GitHub Pages](https://karpovyuri.github.io/wordpress/index.html)
+
